@@ -1,0 +1,9 @@
+base_model: distilbert-base-uncased
+projection_dim: 256
+max_query_length: 128
+max_doc_length: 256
+batch_size: 8
+learning_rate: 0.00002
+temperature: 0.05
+retrieval_top_k: 20
+hybrid_alpha: 0.6
